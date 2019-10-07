@@ -1,0 +1,79 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+.navAndSearch{
+	width: 100vw;
+	height: 90px;
+	background-color: silver;
+	margin: auto;
+}
+
+a{
+	display: inline-block;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 30px;
+	
+}
+
+.container{
+	width: 80%;
+	height: 500px;
+	border: 5px solid orange;
+	margin: auto;
+	background-image: url(https://www.theedwinhotel.com/wp-content/uploads/sites/18/2018/11/the-edwin-hotel-chattanooga-suite-living-room-1024x857.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+.motto{
+	font-size: 2.5em;
+	text-align: right;
+	color: white;
+	padding: 20px;
+}
+.customerInfo {
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 10px;
+	position: relative;
+	top:60px;
+	left:50px;	
+	font-family: 'Fredoka One', cursive;
+}
+
+p{
+	line-height: 2.3rem;
+	text-align: center;
+}
+a,button,option{	
+    font-family: 'Fredoka One', cursive;
+}
+
+.copyright{
+	width: 100vw;
+	height: 90px;
+	background-color: silver;
+	font-family: 'Fredoka One', cursive;
+	margin: auto;	
+}
+.addinfo{
+	width: 250px;
+	position: relative;
+	top:30px;
+	left:30px;
+}
+a:hover{
+	color: white;
+}
+
+@media screen and (min-width: 600px){
+	.container{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+	}
+}
